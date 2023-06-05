@@ -52,27 +52,6 @@
         </dependency>
     </dependencies>
 
-
-    <!-- CI profile to upload -->
-    <profiles>
-        <profile>
-            <id>github</id>
-            <activation>
-                <property>
-                    <name>useGitHubPackages</name>
-                    <value>true</value>
-                </property>
-            </activation>
-            <distributionManagement>
-                <repository>
-                    <id>github</id>
-                    <name>GitHub Packages</name>
-                    <url>https://maven.pkg.github.com/AlNat/practice_ip_counter</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-    </profiles>
-
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
