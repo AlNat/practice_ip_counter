@@ -13,6 +13,7 @@ import java.util.BitSet;
 
 
 /**
+ * Counter based on bitset
  * IP count list is 2ˆ32, but array size is only 2ˆ31, so generate 2 bit array
  */
 public class BitSetIpCounter extends FileReaderIPCounter implements IPCounter {

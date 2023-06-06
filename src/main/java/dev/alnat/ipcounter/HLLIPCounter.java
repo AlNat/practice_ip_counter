@@ -11,6 +11,9 @@ import org.apache.commons.io.LineIterator;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Counter with HyperLogLog algorithm
+ */
 public class HLLIPCounter extends FileReaderIPCounter implements IPCounter {
 
     private final Integer log2m;
@@ -21,6 +24,9 @@ public class HLLIPCounter extends FileReaderIPCounter implements IPCounter {
     }
 
 
+    /**
+     * Use size param to define the expected size of the data
+     */
     public HLLIPCounter(Size size) {
         this.log2m = size.getLog2m();
         this.registerWidth = size.getRegisterWidth();

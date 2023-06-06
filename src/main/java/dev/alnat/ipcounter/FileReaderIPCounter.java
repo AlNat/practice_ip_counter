@@ -5,6 +5,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.zip.ZipFile;
 
+/**
+ * Base class, provides file reading feature
+ */
 public abstract class FileReaderIPCounter implements IPCounter {
 
     @Override

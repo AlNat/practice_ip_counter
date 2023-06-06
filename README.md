@@ -57,4 +57,4 @@ So, if we've got IPV4 only, and we need the exact count of unique IP -- BitMap i
 Test file from the link. MBP16 as stand. fFew repeat, best value.
 
 * BitSet -- Found 1 000 000 000 unique IP in 8 000 000 000 zipped IPs with time 23M 19S 
-* HLL -- 
+* HLL -- Found 1 000 115 043 unique IP in 8 000 000 000 zipped IPs with time 25M 46S
